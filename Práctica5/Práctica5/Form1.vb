@@ -1,28 +1,28 @@
 ﻿Public Class Form1
 
-    Dim MiListaOrigen As ListBox
-    Dim MiListaDestino As ListBox
+    Dim origList As ListBox
+    Dim destList As ListBox
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        InicializarControles()
+        InitControls()
 
     End Sub
 
-    Private Sub InicializarControles()
+    Private Sub InitControls()
 
-        TextoIzq.Tag = ListaIzq
-        BtnBorrarListaIzq.Tag = ListaIzq
+        LeftText.Tag = LeftList
+        LeftClearListButton.Tag = LeftList
 
-        TextoCen.Tag = ListaCen
-        BtnBorrarListaCen.Tag = ListaCen
+        MidText.Tag = MidList
+        MidClearListButton.Tag = MidList
 
-        TextoDer.Tag = ListaDer
-        BtnBorrarListaDer.Tag = ListaDer
+        RightText.Tag = RightList
+        RightClearListButton.Tag = RightList
 
     End Sub
 
-    Private Sub TextoIzq_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextoIzq.KeyPress, TextoCen.KeyPress, TextoDer.KeyPress
+    Private Sub Text_keyPress(sender As Object, e As KeyPressEventArgs) Handles LeftText.KeyPress, MidText.KeyPress, RightText.KeyPress
 
         Dim Mitext As TextBox = sender
         Dim MiListaEntrada As ListBox = Mitext.Tag
@@ -38,7 +38,7 @@
 
     End Sub
 
-    Private Sub BtnBorrarListaIzq_Click(sender As Object, e As EventArgs) Handles BtnBorrarListaIzq.Click, BtnBorrarListaCen.Click, BtnBorrarListaDer.Click
+    Private Sub ClearList_buttonCLick(sender As Object, e As EventArgs) Handles LeftClearListButton.Click, MidClearListButton.Click, RightClearListButton.Click
 
         Dim Mibtn As Button = sender
         Dim Milista As ListBox = Mibtn.Tag
@@ -46,29 +46,29 @@
 
     End Sub
 
-    Private Sub PasarElemento()
+    Private Sub MoveElement()
 
-        Do While MiListaOrigen.SelectedItems.Count
+        Do While origList.SelectedItems.Count
 
-            MiListaDestino.Items.Add(MiListaOrigen.SelectedItems(0))
-            MiListaOrigen.Items.Remove(MiListaOrigen.SelectedItems(0))
+            destList.Items.Add(origList.SelectedItems(0))
+            origList.Items.Remove(origList.SelectedItems(0))
 
         Loop
 
     End Sub
 
-    'Private Sub ListaIzq_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListaIzq.DoubleClick, ListaCen.DoubleClick, ListaDer.DoubleClick
+    'Private Sub List_doubleClick(sender As Object, e As EventArgs) Handles ListaIzq.DoubleClick, ListaCen.DoubleClick, ListaDer.DoubleClick
 
-    '    Dim MiLista As ListBox = sender
-    '    If MiLista.SelectedItems.Count = 0 Then Exit Sub
-    '    Select Case MiLista.Name
+    '    Dim myList As ListBox = sender
+    '    If myList.SelectedItems.Count = 0 Then Exit Sub
+    '    Select Case myList.Name
     '        Case "ListaIzq"
-    '            MiListaOrigen = ListaIzq
-    '            MiListaDestino = ListaCen
+    '            origList = ListaIzq
+    '            destList = ListaCen
 
     '        Case "ListaCen"
-    '            MiListaOrigen = ListaCen
-    '            MiListaDestino = ListaIzq
+    '            origList = ListaCen
+    '            destList = ListaIzq
 
     '    End Select
 
@@ -76,62 +76,65 @@
 
     'End Sub
 
-    Private Sub BtnPasarIzqCen_Click(sender As Object, e As EventArgs) _
+    Private Sub MoveListsButton(sender As Object, e As EventArgs) _
         Handles BtnPasarIzqCen.Click, BtnPasarCenIzq.Click, BtnPasarDerCen.Click, BtnPasarCenDer.Click
 
         Dim MiBoton As Button = sender
         Select Case MiBoton.Name
 
             Case "BtnPasarIzqCen"
-                MiListaOrigen = ListaIzq
-                MiListaDestino = ListaCen
+                origList = LeftList
+                destList = MidList
 
             Case "BtnPasarCenIzq"
-                MiListaOrigen = ListaCen
-                MiListaDestino = ListaIzq
+                origList = MidList
+                destList = LeftList
 
             Case "BtnPasarCenDer"
-                MiListaOrigen = ListaCen
-                MiListaDestino = ListaDer
+                origList = MidList
+                destList = RightList
 
             Case "BtnPasarDerCen"
-                MiListaOrigen = ListaDer
-                MiListaDestino = ListaCen
+                origList = RightList
+                destList = MidList
 
         End Select
 
-        If MiListaOrigen.SelectedItems.Count = 0 Then
+        If origList.SelectedItems.Count = 0 Then
 
-            For i As Integer = 0 To MiListaOrigen.Items.Count - 1
+            For i As Integer = 0 To origList.Items.Count - 1
 
-                MiListaOrigen.SetSelected(i, True)
+                origList.SetSelected(i, True)
 
             Next
 
         End If
 
-        PasarElemento()
+        MoveElement()
 
     End Sub
 
-    Private Sub Listas_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles ListaIzq.MouseDown, ListaCen.MouseDown, ListaDer.MouseDown
+    Private Sub List_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles LeftList.MouseDown, MidList.MouseDown, RightList.MouseDown
 
-        MiListaOrigen = sender
-        MiListaOrigen.DoDragDrop(MiListaOrigen.Text, DragDropEffects.Move)
+        origList = sender
+        origList.DoDragDrop(origList.Text, DragDropEffects.Move)
 
     End Sub
 
-    Private Sub DragOver(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles ListaIzq.DragOver, ListaCen.DragOver, ListaDer.DragOver
+    Private Sub DragOverAll(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles LeftList.DragOver, MidList.DragOver, RightList.DragOver
 
         e.Effect = DragDropEffects.Move
 
     End Sub
 
-    Private Sub DragDrop(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles ListaIzq.DragDrop, ListaCen.DragDrop, ListaDer.DragDrop
+    Private Sub DragNDropElements(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles LeftList.DragDrop, MidList.DragDrop, RightList.DragDrop
 
-        MiListaDestino = sender
-        PasarElemento()
+        destList = sender
+        MoveElement()
 
     End Sub
 
+    Private Sub LeftList_SelectedIndexChanged(sender As Object, e As EventArgs) Handles LeftList.SelectedIndexChanged
+
+    End Sub
 End Class

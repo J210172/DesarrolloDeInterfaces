@@ -22,76 +22,76 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListaIzq = New System.Windows.Forms.ListBox()
-        Me.BtnBorrarListaIzq = New System.Windows.Forms.Button()
-        Me.TextoIzq = New System.Windows.Forms.TextBox()
-        Me.BtnBorrarListaCen = New System.Windows.Forms.Button()
-        Me.ListaCen = New System.Windows.Forms.ListBox()
-        Me.TextoCen = New System.Windows.Forms.TextBox()
+        Me.LeftList = New System.Windows.Forms.ListBox()
+        Me.LeftClearListButton = New System.Windows.Forms.Button()
+        Me.LeftText = New System.Windows.Forms.TextBox()
+        Me.MidClearListButton = New System.Windows.Forms.Button()
+        Me.MidList = New System.Windows.Forms.ListBox()
+        Me.MidText = New System.Windows.Forms.TextBox()
         Me.BtnPasarIzqCen = New System.Windows.Forms.Button()
         Me.BtnPasarCenIzq = New System.Windows.Forms.Button()
         Me.BtnPasarDerCen = New System.Windows.Forms.Button()
         Me.BtnPasarCenDer = New System.Windows.Forms.Button()
-        Me.TextoDer = New System.Windows.Forms.TextBox()
-        Me.ListaDer = New System.Windows.Forms.ListBox()
-        Me.BtnBorrarListaDer = New System.Windows.Forms.Button()
+        Me.RightText = New System.Windows.Forms.TextBox()
+        Me.RightList = New System.Windows.Forms.ListBox()
+        Me.RightClearListButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'ListaIzq
+        'LeftList
         '
-        Me.ListaIzq.AllowDrop = True
-        Me.ListaIzq.FormattingEnabled = True
-        Me.ListaIzq.ItemHeight = 15
-        Me.ListaIzq.Items.AddRange(New Object() {"Ford", "Mazda", "Seat", "Audi", "Mercedes"})
-        Me.ListaIzq.Location = New System.Drawing.Point(43, 93)
-        Me.ListaIzq.Name = "ListaIzq"
-        Me.ListaIzq.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.ListaIzq.Size = New System.Drawing.Size(138, 184)
-        Me.ListaIzq.TabIndex = 0
+        Me.LeftList.AllowDrop = True
+        Me.LeftList.FormattingEnabled = True
+        Me.LeftList.ItemHeight = 15
+        Me.LeftList.Items.AddRange(New Object() {"2", "3", "5", "7", "11", "13", "17", "19", "23"})
+        Me.LeftList.Location = New System.Drawing.Point(43, 93)
+        Me.LeftList.Name = "LeftList"
+        Me.LeftList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
+        Me.LeftList.Size = New System.Drawing.Size(138, 184)
+        Me.LeftList.TabIndex = 0
         '
-        'BtnBorrarListaIzq
+        'LeftClearListButton
         '
-        Me.BtnBorrarListaIzq.Location = New System.Drawing.Point(43, 64)
-        Me.BtnBorrarListaIzq.Name = "BtnBorrarListaIzq"
-        Me.BtnBorrarListaIzq.Size = New System.Drawing.Size(138, 23)
-        Me.BtnBorrarListaIzq.TabIndex = 1
-        Me.BtnBorrarListaIzq.Text = "Borrar Lista"
-        Me.BtnBorrarListaIzq.UseVisualStyleBackColor = True
+        Me.LeftClearListButton.Location = New System.Drawing.Point(43, 64)
+        Me.LeftClearListButton.Name = "LeftClearListButton"
+        Me.LeftClearListButton.Size = New System.Drawing.Size(138, 23)
+        Me.LeftClearListButton.TabIndex = 1
+        Me.LeftClearListButton.Text = "Borrar Lista"
+        Me.LeftClearListButton.UseVisualStyleBackColor = True
         '
-        'TextoIzq
+        'LeftText
         '
-        Me.TextoIzq.Location = New System.Drawing.Point(43, 283)
-        Me.TextoIzq.Name = "TextoIzq"
-        Me.TextoIzq.Size = New System.Drawing.Size(138, 23)
-        Me.TextoIzq.TabIndex = 2
+        Me.LeftText.Location = New System.Drawing.Point(43, 283)
+        Me.LeftText.Name = "LeftText"
+        Me.LeftText.Size = New System.Drawing.Size(138, 23)
+        Me.LeftText.TabIndex = 2
         '
-        'BtnBorrarListaCen
+        'MidClearListButton
         '
-        Me.BtnBorrarListaCen.Location = New System.Drawing.Point(283, 64)
-        Me.BtnBorrarListaCen.Name = "BtnBorrarListaCen"
-        Me.BtnBorrarListaCen.Size = New System.Drawing.Size(140, 23)
-        Me.BtnBorrarListaCen.TabIndex = 3
-        Me.BtnBorrarListaCen.Text = "Borrar Lista"
-        Me.BtnBorrarListaCen.UseVisualStyleBackColor = True
+        Me.MidClearListButton.Location = New System.Drawing.Point(283, 64)
+        Me.MidClearListButton.Name = "MidClearListButton"
+        Me.MidClearListButton.Size = New System.Drawing.Size(140, 23)
+        Me.MidClearListButton.TabIndex = 3
+        Me.MidClearListButton.Text = "Borrar Lista"
+        Me.MidClearListButton.UseVisualStyleBackColor = True
         '
-        'ListaCen
+        'MidList
         '
-        Me.ListaCen.AllowDrop = True
-        Me.ListaCen.FormattingEnabled = True
-        Me.ListaCen.ItemHeight = 15
-        Me.ListaCen.Items.AddRange(New Object() {"Peugeot", "Lamborghini", "Nissan", "Toyota", "Subaru", "Honda"})
-        Me.ListaCen.Location = New System.Drawing.Point(283, 93)
-        Me.ListaCen.Name = "ListaCen"
-        Me.ListaCen.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.ListaCen.Size = New System.Drawing.Size(140, 184)
-        Me.ListaCen.TabIndex = 4
+        Me.MidList.AllowDrop = True
+        Me.MidList.FormattingEnabled = True
+        Me.MidList.ItemHeight = 15
+        Me.MidList.Items.AddRange(New Object() {"Yellow", "Green", "Blue", "Pink", "Lime", "Cyan", "Orange", "Red"})
+        Me.MidList.Location = New System.Drawing.Point(283, 93)
+        Me.MidList.Name = "MidList"
+        Me.MidList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
+        Me.MidList.Size = New System.Drawing.Size(140, 184)
+        Me.MidList.TabIndex = 4
         '
-        'TextoCen
+        'MidText
         '
-        Me.TextoCen.Location = New System.Drawing.Point(283, 283)
-        Me.TextoCen.Name = "TextoCen"
-        Me.TextoCen.Size = New System.Drawing.Size(140, 23)
-        Me.TextoCen.TabIndex = 5
+        Me.MidText.Location = New System.Drawing.Point(283, 283)
+        Me.MidText.Name = "MidText"
+        Me.MidText.Size = New System.Drawing.Size(140, 23)
+        Me.MidText.TabIndex = 5
         '
         'BtnPasarIzqCen
         '
@@ -129,33 +129,33 @@ Partial Class Form1
         Me.BtnPasarCenDer.Text = "-->"
         Me.BtnPasarCenDer.UseVisualStyleBackColor = True
         '
-        'TextoDer
+        'RightText
         '
-        Me.TextoDer.Location = New System.Drawing.Point(527, 283)
-        Me.TextoDer.Name = "TextoDer"
-        Me.TextoDer.Size = New System.Drawing.Size(140, 23)
-        Me.TextoDer.TabIndex = 10
+        Me.RightText.Location = New System.Drawing.Point(527, 283)
+        Me.RightText.Name = "RightText"
+        Me.RightText.Size = New System.Drawing.Size(140, 23)
+        Me.RightText.TabIndex = 10
         '
-        'ListaDer
+        'RightList
         '
-        Me.ListaDer.AllowDrop = True
-        Me.ListaDer.FormattingEnabled = True
-        Me.ListaDer.ItemHeight = 15
-        Me.ListaDer.Items.AddRange(New Object() {"a", "b", "c", "d", "e"})
-        Me.ListaDer.Location = New System.Drawing.Point(527, 93)
-        Me.ListaDer.Name = "ListaDer"
-        Me.ListaDer.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.ListaDer.Size = New System.Drawing.Size(140, 184)
-        Me.ListaDer.TabIndex = 9
+        Me.RightList.AllowDrop = True
+        Me.RightList.FormattingEnabled = True
+        Me.RightList.ItemHeight = 15
+        Me.RightList.Items.AddRange(New Object() {"a", "e", "i", "o", "u"})
+        Me.RightList.Location = New System.Drawing.Point(527, 93)
+        Me.RightList.Name = "RightList"
+        Me.RightList.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
+        Me.RightList.Size = New System.Drawing.Size(140, 184)
+        Me.RightList.TabIndex = 9
         '
-        'BtnBorrarListaDer
+        'RightClearListButton
         '
-        Me.BtnBorrarListaDer.Location = New System.Drawing.Point(527, 64)
-        Me.BtnBorrarListaDer.Name = "BtnBorrarListaDer"
-        Me.BtnBorrarListaDer.Size = New System.Drawing.Size(140, 23)
-        Me.BtnBorrarListaDer.TabIndex = 8
-        Me.BtnBorrarListaDer.Text = "Borrar Lista"
-        Me.BtnBorrarListaDer.UseVisualStyleBackColor = True
+        Me.RightClearListButton.Location = New System.Drawing.Point(527, 64)
+        Me.RightClearListButton.Name = "RightClearListButton"
+        Me.RightClearListButton.Size = New System.Drawing.Size(140, 23)
+        Me.RightClearListButton.TabIndex = 8
+        Me.RightClearListButton.Text = "Borrar Lista"
+        Me.RightClearListButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -164,17 +164,17 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.BtnPasarDerCen)
         Me.Controls.Add(Me.BtnPasarCenDer)
-        Me.Controls.Add(Me.TextoDer)
-        Me.Controls.Add(Me.ListaDer)
-        Me.Controls.Add(Me.BtnBorrarListaDer)
+        Me.Controls.Add(Me.RightText)
+        Me.Controls.Add(Me.RightList)
+        Me.Controls.Add(Me.RightClearListButton)
         Me.Controls.Add(Me.BtnPasarCenIzq)
         Me.Controls.Add(Me.BtnPasarIzqCen)
-        Me.Controls.Add(Me.TextoCen)
-        Me.Controls.Add(Me.ListaCen)
-        Me.Controls.Add(Me.BtnBorrarListaCen)
-        Me.Controls.Add(Me.TextoIzq)
-        Me.Controls.Add(Me.BtnBorrarListaIzq)
-        Me.Controls.Add(Me.ListaIzq)
+        Me.Controls.Add(Me.MidText)
+        Me.Controls.Add(Me.MidList)
+        Me.Controls.Add(Me.MidClearListButton)
+        Me.Controls.Add(Me.LeftText)
+        Me.Controls.Add(Me.LeftClearListButton)
+        Me.Controls.Add(Me.LeftList)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -182,17 +182,17 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents ListaIzq As ListBox
-    Friend WithEvents BtnBorrarListaIzq As Button
-    Friend WithEvents TextoIzq As TextBox
-    Friend WithEvents BtnBorrarListaCen As Button
-    Friend WithEvents ListaCen As ListBox
-    Friend WithEvents TextoCen As TextBox
+    Friend WithEvents LeftList As ListBox
+    Friend WithEvents LeftClearListButton As Button
+    Friend WithEvents LeftText As TextBox
+    Friend WithEvents MidClearListButton As Button
+    Friend WithEvents MidList As ListBox
+    Friend WithEvents MidText As TextBox
     Friend WithEvents BtnPasarIzqCen As Button
     Friend WithEvents BtnPasarCenIzq As Button
     Friend WithEvents BtnPasarDerCen As Button
     Friend WithEvents BtnPasarCenDer As Button
-    Friend WithEvents TextoDer As TextBox
-    Friend WithEvents ListaDer As ListBox
-    Friend WithEvents BtnBorrarListaDer As Button
+    Friend WithEvents RightText As TextBox
+    Friend WithEvents RightList As ListBox
+    Friend WithEvents RightClearListButton As Button
 End Class
