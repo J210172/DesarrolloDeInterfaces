@@ -60,20 +60,20 @@
     'Private Sub List_doubleClick(sender As Object, e As EventArgs) Handles ListaIzq.DoubleClick, ListaCen.DoubleClick, ListaDer.DoubleClick
 
     '    Dim myList As ListBox = sender
-    '    If myList.SelectedItems.Count = 0 Then Exit Sub
+    '    If myList.SelectedItems.Count >= 0 Then
     '    Select Case myList.Name
-    '        Case "ListaIzq"
-    '            origList = ListaIzq
-    '            destList = ListaCen
+    '        Case "ListLeft"
+    '            origList = ListaLeft
+    '            destList = ListaMId
 
-    '        Case "ListaCen"
-    '            origList = ListaCen
-    '            destList = ListaIzq
+    '        Case "ListMid"
+    '            origList = ListaMid
+    '            destList = ListaRight
 
     '    End Select
 
     '    PasarElemento()
-
+    '    End If
     'End Sub
 
     Private Sub MoveListsButton(sender As Object, e As EventArgs) _
@@ -117,7 +117,12 @@
     Private Sub List_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles LeftList.MouseDown, MidList.MouseDown, RightList.MouseDown
 
         origList = sender
-        origList.DoDragDrop(origList.Text, DragDropEffects.Move)
+        Try
+            origList.DoDragDrop(origList.Text, DragDropEffects.Move)
+
+        Catch ex As Exception
+
+        End Try
 
     End Sub
 
