@@ -6,4 +6,8 @@ build_property.ApplicationHighDpiMode =
 build_property.ApplicationUseCompatibleTextRendering = 
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = Práctica3
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Repositories\DesarrolloDeInterfaces\Práctica3\Práctica3\
+=======
+build_property.ProjectDir = C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\Práctica3\Práctica3\
+>>>>>>> ccac702e2853c4aef9d4375de6b6d0127f277f25

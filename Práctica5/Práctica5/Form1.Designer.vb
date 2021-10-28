@@ -176,7 +176,7 @@ Partial Class Form1
         Me.Controls.Add(Me.LeftClearListButton)
         Me.Controls.Add(Me.LeftList)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Practica 5"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
