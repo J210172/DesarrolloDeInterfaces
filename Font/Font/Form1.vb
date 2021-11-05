@@ -16,6 +16,10 @@
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
         HolaLabel.Font = New Drawing.Font(ComboBox1.Text, TrackBar1.Value)
     End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        HolaLabel.Font = New Drawing.Font(ComboBox1.Text, TrackBar1.Value)
+    End Sub
 End Class
 'ComboBox1.Items.AddRange(FontFamily.Families)
 'ComboBox1.Text = ComboBox1.Items(0)  
