@@ -1,0 +1,12 @@
+C:\Users\pablo\source\repos\font\font\bin\Debug\fuentes.exe.config
+C:\Users\pablo\source\repos\font\font\bin\Debug\fuentes.exe
+C:\Users\pablo\source\repos\font\font\bin\Debug\fuentes.pdb
+C:\Users\pablo\source\repos\font\font\bin\Debug\fuentes.xml
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.vbproj.AssemblyReference.cache
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.Form1.resources
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.Resources.resources
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.vbproj.GenerateResource.cache
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.vbproj.CoreCompileInputs.cache
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.exe
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.xml
+C:\Users\pablo\source\repos\font\font\obj\Debug\fuentes.pdb

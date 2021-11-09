@@ -22,3 +22,15 @@ C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.vbproj.Cor
 C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.exe
 C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.xml
 C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.pdb
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\bin\Debug\Font.exe.config
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\bin\Debug\Font.exe
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\bin\Debug\Font.pdb
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\bin\Debug\Font.xml
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.vbproj.AssemblyReference.cache
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.Form1.resources
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.Resources.resources
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.vbproj.GenerateResource.cache
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.vbproj.CoreCompileInputs.cache
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.exe
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.xml
+D:\Repositories\DesarrolloDeInterfaces\Font\Font\obj\Debug\Font.pdb
