@@ -1,0 +1,12 @@
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\bin\Debug\GestionExcepciones.exe.config
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\bin\Debug\GestionExcepciones.exe
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\bin\Debug\GestionExcepciones.pdb
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\bin\Debug\GestionExcepciones.xml
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.vbproj.AssemblyReference.cache
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.Form1.resources
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.Resources.resources
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.vbproj.GenerateResource.cache
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.vbproj.CoreCompileInputs.cache
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.exe
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.xml
+C:\Users\DAM2Alu9\source\repos\GestionExcepciones\GestionExcepciones\obj\Debug\GestionExcepciones.pdb

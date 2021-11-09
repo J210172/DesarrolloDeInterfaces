@@ -1,0 +1,11 @@
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\bin\Debug\Drawable2d.exe.config
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\bin\Debug\Drawable2d.exe
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\bin\Debug\Drawable2d.pdb
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\bin\Debug\Drawable2d.xml
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.Form1.resources
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.Resources.resources
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.vbproj.GenerateResource.cache
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.vbproj.CoreCompileInputs.cache
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.exe
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.xml
+C:\Users\DAM2Alu9\source\repos\Drawable2d\Drawable2d\obj\Debug\Drawable2d.pdb
