@@ -1,0 +1,14 @@
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\bin\Debug\FormularioMDI.exe.config
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\bin\Debug\FormularioMDI.exe
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\bin\Debug\FormularioMDI.pdb
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\bin\Debug\FormularioMDI.xml
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.vbproj.AssemblyReference.cache
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.Form1.resources
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.Resources.resources
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.PictureForm.resources
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.TextForm.resources
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.vbproj.GenerateResource.cache
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.vbproj.CoreCompileInputs.cache
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.exe
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.xml
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.pdb
