@@ -82,4 +82,8 @@
         End If
         Me.ActiveMdiChild.Close()
     End Sub
+
+    Private Sub AboutButton_Click(sender As Object, e As EventArgs) Handles AboutButton.Click, AboutItem.Click
+        AboutBox1.ShowDialog()
+    End Sub
 End Class
