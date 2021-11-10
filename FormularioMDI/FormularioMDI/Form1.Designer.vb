@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
@@ -30,6 +30,8 @@ Partial Class Form1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PriToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CargarHijosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TextoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ImagenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerrarVentanaActualToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CerrarTodasLasVentanasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
@@ -38,15 +40,16 @@ Partial Class Form1
         Me.CascadaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerticalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HorizontalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TextoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ImagenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.AboutButton = New System.Windows.Forms.ToolStripButton()
+        Me.AboutItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolStrip1
         '
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewTextWindow, Me.NewPictureWindow, Me.CloseAllWindows})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewTextWindow, Me.NewPictureWindow, Me.CloseAllWindows, Me.AboutButton})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 24)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(800, 25)
@@ -82,7 +85,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PriToolStripMenuItem, Me.VentanasHijasToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PriToolStripMenuItem, Me.VentanasHijasToolStripMenuItem, Me.AboutItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -102,6 +105,18 @@ Partial Class Form1
         Me.CargarHijosToolStripMenuItem.Name = "CargarHijosToolStripMenuItem"
         Me.CargarHijosToolStripMenuItem.Size = New System.Drawing.Size(209, 22)
         Me.CargarHijosToolStripMenuItem.Text = "Cargar Hijos"
+        '
+        'TextoToolStripMenuItem
+        '
+        Me.TextoToolStripMenuItem.Name = "TextoToolStripMenuItem"
+        Me.TextoToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.TextoToolStripMenuItem.Text = "Texto"
+        '
+        'ImagenToolStripMenuItem
+        '
+        Me.ImagenToolStripMenuItem.Name = "ImagenToolStripMenuItem"
+        Me.ImagenToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.ImagenToolStripMenuItem.Text = "Imagen"
         '
         'CerrarVentanaActualToolStripMenuItem
         '
@@ -151,17 +166,22 @@ Partial Class Form1
         Me.HorizontalToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.HorizontalToolStripMenuItem.Text = "Horizontal"
         '
-        'TextoToolStripMenuItem
+        'AboutButton
         '
-        Me.TextoToolStripMenuItem.Name = "TextoToolStripMenuItem"
-        Me.TextoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.TextoToolStripMenuItem.Text = "Texto"
+        Me.AboutButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.AboutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.AboutButton.Image = CType(resources.GetObject("AboutButton.Image"), System.Drawing.Image)
+        Me.AboutButton.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.AboutButton.Name = "AboutButton"
+        Me.AboutButton.Size = New System.Drawing.Size(23, 22)
+        Me.AboutButton.Text = "ToolStripButton1"
         '
-        'ImagenToolStripMenuItem
+        'AboutItem
         '
-        Me.ImagenToolStripMenuItem.Name = "ImagenToolStripMenuItem"
-        Me.ImagenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ImagenToolStripMenuItem.Text = "Imagen"
+        Me.AboutItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.AboutItem.Name = "AboutItem"
+        Me.AboutItem.Size = New System.Drawing.Size(24, 20)
+        Me.AboutItem.Text = "?"
         '
         'Form1
         '
@@ -200,4 +220,7 @@ Partial Class Form1
     Friend WithEvents CloseAllWindows As ToolStripButton
     Friend WithEvents TextoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ImagenToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AboutButton As ToolStripButton
+    Friend WithEvents ColorDialog1 As ColorDialog
+    Friend WithEvents AboutItem As ToolStripMenuItem
 End Class
