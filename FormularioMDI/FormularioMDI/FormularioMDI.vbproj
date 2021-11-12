@@ -146,5 +146,17 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_palette_brush_paint_icon_193916.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content_design_pencil_edit_windows_icon_193926.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_archive_folders_icon_193943.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-microsoft-forms-48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

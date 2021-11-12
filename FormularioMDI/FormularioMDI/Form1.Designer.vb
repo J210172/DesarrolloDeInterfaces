@@ -22,11 +22,11 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.NewTextWindow = New System.Windows.Forms.ToolStripButton()
         Me.NewPictureWindow = New System.Windows.Forms.ToolStripButton()
         Me.CloseAllWindows = New System.Windows.Forms.ToolStripButton()
+        Me.AboutButton = New System.Windows.Forms.ToolStripButton()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PriToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CargarHijosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -40,9 +40,9 @@ Partial Class Form1
         Me.CascadaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerticalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HorizontalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.AboutButton = New System.Windows.Forms.ToolStripButton()
         Me.AboutItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -59,34 +59,45 @@ Partial Class Form1
         'NewTextWindow
         '
         Me.NewTextWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.NewTextWindow.Image = CType(resources.GetObject("NewTextWindow.Image"), System.Drawing.Image)
+        Me.NewTextWindow.Image = Global.FormularioMDI.My.Resources.Resources.content_design_pencil_edit_windows_icon_193926
         Me.NewTextWindow.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NewTextWindow.Name = "NewTextWindow"
         Me.NewTextWindow.Size = New System.Drawing.Size(23, 22)
-        Me.NewTextWindow.Text = "ToolStripButton1"
+        Me.NewTextWindow.Text = "Nueva ventana de texto"
         '
         'NewPictureWindow
         '
         Me.NewPictureWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.NewPictureWindow.Image = CType(resources.GetObject("NewPictureWindow.Image"), System.Drawing.Image)
+        Me.NewPictureWindow.Image = Global.FormularioMDI.My.Resources.Resources.color_palette_brush_paint_icon_193916
         Me.NewPictureWindow.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NewPictureWindow.Name = "NewPictureWindow"
         Me.NewPictureWindow.Size = New System.Drawing.Size(23, 22)
-        Me.NewPictureWindow.Text = "ToolStripButton1"
+        Me.NewPictureWindow.Text = "Nueva ventana de imagen"
         '
         'CloseAllWindows
         '
         Me.CloseAllWindows.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.CloseAllWindows.Image = CType(resources.GetObject("CloseAllWindows.Image"), System.Drawing.Image)
+        Me.CloseAllWindows.Image = Global.FormularioMDI.My.Resources.Resources.file_archive_folders_icon_193943
         Me.CloseAllWindows.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CloseAllWindows.Name = "CloseAllWindows"
         Me.CloseAllWindows.Size = New System.Drawing.Size(23, 22)
-        Me.CloseAllWindows.Text = "ToolStripButton1"
+        Me.CloseAllWindows.Text = "Cerrar todas las ventanas"
+        '
+        'AboutButton
+        '
+        Me.AboutButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.AboutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.AboutButton.Image = Global.FormularioMDI.My.Resources.Resources.icons8_microsoft_forms_48
+        Me.AboutButton.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.AboutButton.Name = "AboutButton"
+        Me.AboutButton.Size = New System.Drawing.Size(23, 22)
+        Me.AboutButton.Text = "Acerca de la App"
         '
         'MenuStrip1
         '
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PriToolStripMenuItem, Me.VentanasHijasToolStripMenuItem, Me.AboutItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.MdiWindowListItem = Me.VentanasHijasToolStripMenuItem
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
         Me.MenuStrip1.TabIndex = 2
@@ -108,14 +119,16 @@ Partial Class Form1
         '
         'TextoToolStripMenuItem
         '
+        Me.TextoToolStripMenuItem.Image = Global.FormularioMDI.My.Resources.Resources.content_design_pencil_edit_windows_icon_193926
         Me.TextoToolStripMenuItem.Name = "TextoToolStripMenuItem"
-        Me.TextoToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.TextoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TextoToolStripMenuItem.Text = "Texto"
         '
         'ImagenToolStripMenuItem
         '
+        Me.ImagenToolStripMenuItem.Image = Global.FormularioMDI.My.Resources.Resources.color_palette_brush_paint_icon_193916
         Me.ImagenToolStripMenuItem.Name = "ImagenToolStripMenuItem"
-        Me.ImagenToolStripMenuItem.Size = New System.Drawing.Size(114, 22)
+        Me.ImagenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ImagenToolStripMenuItem.Text = "Imagen"
         '
         'CerrarVentanaActualToolStripMenuItem
@@ -143,7 +156,7 @@ Partial Class Form1
         '
         'VentanasHijasToolStripMenuItem
         '
-        Me.VentanasHijasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CascadaToolStripMenuItem, Me.VerticalToolStripMenuItem, Me.HorizontalToolStripMenuItem})
+        Me.VentanasHijasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CascadaToolStripMenuItem, Me.VerticalToolStripMenuItem, Me.HorizontalToolStripMenuItem, Me.ToolStripSeparator2})
         Me.VentanasHijasToolStripMenuItem.Name = "VentanasHijasToolStripMenuItem"
         Me.VentanasHijasToolStripMenuItem.Size = New System.Drawing.Size(95, 20)
         Me.VentanasHijasToolStripMenuItem.Text = "Ventanas Hijas"
@@ -151,30 +164,20 @@ Partial Class Form1
         'CascadaToolStripMenuItem
         '
         Me.CascadaToolStripMenuItem.Name = "CascadaToolStripMenuItem"
-        Me.CascadaToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.CascadaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CascadaToolStripMenuItem.Text = "Cascada"
         '
         'VerticalToolStripMenuItem
         '
         Me.VerticalToolStripMenuItem.Name = "VerticalToolStripMenuItem"
-        Me.VerticalToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.VerticalToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VerticalToolStripMenuItem.Text = "Vertical"
         '
         'HorizontalToolStripMenuItem
         '
         Me.HorizontalToolStripMenuItem.Name = "HorizontalToolStripMenuItem"
-        Me.HorizontalToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.HorizontalToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.HorizontalToolStripMenuItem.Text = "Horizontal"
-        '
-        'AboutButton
-        '
-        Me.AboutButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.AboutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AboutButton.Image = CType(resources.GetObject("AboutButton.Image"), System.Drawing.Image)
-        Me.AboutButton.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.AboutButton.Name = "AboutButton"
-        Me.AboutButton.Size = New System.Drawing.Size(23, 22)
-        Me.AboutButton.Text = "ToolStripButton1"
         '
         'AboutItem
         '
@@ -182,6 +185,11 @@ Partial Class Form1
         Me.AboutItem.Name = "AboutItem"
         Me.AboutItem.Size = New System.Drawing.Size(24, 20)
         Me.AboutItem.Text = "?"
+        '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(177, 6)
         '
         'Form1
         '
@@ -223,4 +231,5 @@ Partial Class Form1
     Friend WithEvents AboutButton As ToolStripButton
     Friend WithEvents ColorDialog1 As ColorDialog
     Friend WithEvents AboutItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
 End Class

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\FormularioMDI",
+    "\\FormularioMDI\\FormularioMDI"
   ],
+  "SelectedNode": "\\FormularioMDI\\FormularioMDI\\Form1.vb",
   "PreviewInSolutionExplorer": false
 }
