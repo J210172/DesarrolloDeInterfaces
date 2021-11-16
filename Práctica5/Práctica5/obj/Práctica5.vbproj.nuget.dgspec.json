@@ -1,29 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repositories\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj": {}
+    "C:\\Users\\DAM2Alu9\\git\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj": {}
   },
   "projects": {
-    "D:\\Repositories\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj": {
+    "C:\\Users\\DAM2Alu9\\git\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repositories\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj",
+        "projectUniqueName": "C:\\Users\\DAM2Alu9\\git\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj",
         "projectName": "Práctica5",
-        "projectPath": "D:\\Repositories\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj",
-        "packagesPath": "C:\\Users\\jaime\\.nuget\\packages\\",
-        "outputPath": "D:\\Repositories\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\obj\\",
+        "projectPath": "C:\\Users\\DAM2Alu9\\git\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\Práctica5.vbproj",
+        "packagesPath": "C:\\Users\\DAM2Alu9\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAM2Alu9\\git\\DesarrolloDeInterfaces\\Práctica5\\Práctica5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\jaime\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "D:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+          "C:\\Users\\DAM2Alu9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
