@@ -15,7 +15,6 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
         NoneRButton.Checked = True
     End Sub
 
@@ -27,50 +26,62 @@
     Private Sub Rbtn_ninguno_CheckedChanged(sender As Object, e As EventArgs) Handles NoneRButton.CheckedChanged
 
         If (NoneRButton.Checked) Then
-            AppBox.Enabled = True
-            OtherPanel.Enabled = True
+            AppBox.Enabled = False
+            OtherPanel.Enabled = False
             ListBox1.Items.Clear()
             ListBox2.Items.Clear()
 
             For Each check As CheckBox In AppBox.Controls
                 check.Checked = False
             Next
-
         End If
-
-
-
-
     End Sub
 
     Private Sub anadirLista(sender As Object, e As EventArgs) Handles SO1Button.CheckedChanged
 
         If (SO1Button.Checked) Then
 
-            ListBox1.Items.Clear()
-            Dim lista As ListBox = ListBox1
+            ListBox2.Items.Clear()
+            Dim lista As ListBox = ListBox2
             Dim listaProductos() As String = {"Avast", "Steam", "Discord", "Afterburner"}
 
             For Each producto As String In listaProductos
 
-                ListBox1.Items.Add(producto)
+                ListBox2.Items.Add(producto)
             Next
 
         End If
 
     End Sub
 
-    Private Sub anadirLista2(sender As Object, e As EventArgs) Handles SO3Button.CheckedChanged
+    Private Sub anadirLista2(sender As Object, e As EventArgs) Handles SO2Button.CheckedChanged
 
         If (SO3Button.Checked) Then
 
-            ListBox1.Items.Clear()
-            Dim lista As ListBox = ListBox1
+            ListBox2.Items.Clear()
+            Dim lista As ListBox = ListBox2
             Dim listaProductos() As String = {"Panda", "Origin", "Skype", "Angel es subnormal"}
 
             For Each producto As String In listaProductos
 
-                ListBox1.Items.Add(producto)
+                ListBox2.Items.Add(producto)
+            Next
+
+        End If
+
+    End Sub
+
+    Private Sub anadirLista3(sender As Object, e As EventArgs) Handles SO3Button.CheckedChanged
+
+        If (SO3Button.Checked) Then
+
+            ListBox2.Items.Clear()
+            Dim lista As ListBox = ListBox2
+            Dim listaProductos() As String = {"Panda3", "Origin3", "Skype3", "Angel es subnormalote"}
+
+            For Each producto As String In listaProductos
+
+                ListBox2.Items.Add(producto)
             Next
 
         End If
@@ -93,7 +104,6 @@
         If ListBox1.SelectedItems.Count = 0 Then
 
             For i As Integer = 0 To ListBox1.Items.Count - 1
-
                 ListBox1.SetSelected(i, True)
             Next
 
@@ -104,8 +114,11 @@
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles App1.CheckedChanged, App2.CheckedChanged, App3.CheckedChanged, App4.CheckedChanged
         Dim checkBox As CheckBox = sender
-        If checkBox.Checked Then
-            ListBox1.Items.Add(checkBox.Text)
+        Dim texto As String = checkBox.Text.Trim
+        If checkBox.Checked And Not ListBox1.Items.Contains(texto) Then
+            ListBox1.Items.Add(texto)
+        Else
+            ListBox1.Items.Remove(texto)
         End If
     End Sub
 
