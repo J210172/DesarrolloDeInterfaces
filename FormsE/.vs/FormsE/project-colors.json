@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c40e4729-9c0a-402f-8135-eaf5a85c6ad7": {
+      "ProjectGuid": "c40e4729-9c0a-402f-8135-eaf5a85c6ad7",
+      "DisplayName": "FormsE",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

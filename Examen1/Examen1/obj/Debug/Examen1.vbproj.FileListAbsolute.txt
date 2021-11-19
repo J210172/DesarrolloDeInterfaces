@@ -1,0 +1,14 @@
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\bin\Debug\Examen1.exe
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\bin\Debug\Examen1.pdb
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\bin\Debug\Examen1.xml
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.vbproj.AssemblyReference.cache
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.Form1.resources
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.Resources.resources
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.P1.resources
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.vbproj.GenerateResource.cache
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.vbproj.CoreCompileInputs.cache
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.exe
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.xml
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.pdb
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.P2.resources
+D:\Repositories\DesarrolloDeInterfaces\Examen1\Examen1\obj\Debug\Examen1.P3.resources

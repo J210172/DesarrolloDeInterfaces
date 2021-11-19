@@ -1,0 +1,12 @@
+C:\Users\34601\source\repos\FormsE\FormsE\bin\Debug\FormsE.exe.config
+C:\Users\34601\source\repos\FormsE\FormsE\bin\Debug\FormsE.exe
+C:\Users\34601\source\repos\FormsE\FormsE\bin\Debug\FormsE.pdb
+C:\Users\34601\source\repos\FormsE\FormsE\bin\Debug\FormsE.xml
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.vbproj.AssemblyReference.cache
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.Form1.resources
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.Resources.resources
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.vbproj.GenerateResource.cache
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.vbproj.CoreCompileInputs.cache
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.exe
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.xml
+C:\Users\34601\source\repos\FormsE\FormsE\obj\Debug\FormsE.pdb

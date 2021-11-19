@@ -1,0 +1,10 @@
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\bin\Debug\PWindowsApp1.exe.config
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\bin\Debug\PWindowsApp1.exe
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\bin\Debug\PWindowsApp1.pdb
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\bin\Debug\PWindowsApp1.xml
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.Resources.resources
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.vbproj.GenerateResource.cache
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.vbproj.CoreCompileInputs.cache
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.exe
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.xml
+D:\Repositories\DesarrolloDeInterfaces\SWindowsApp1\PWindowsApp1\obj\Debug\PWindowsApp1.pdb
