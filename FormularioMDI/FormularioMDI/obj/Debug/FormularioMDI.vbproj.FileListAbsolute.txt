@@ -27,3 +27,4 @@ D:\Repositories\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\For
 D:\Repositories\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.xml
 D:\Repositories\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.pdb
 D:\Repositories\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.AboutBox1.resources
+C:\Users\DAM2Alu9\git\DesarrolloDeInterfaces\FormularioMDI\FormularioMDI\obj\Debug\FormularioMDI.AboutBox1.resources
