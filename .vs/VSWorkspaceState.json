@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Examen1",
-    "\\Examen1\\Examen1"
+    "\\Examen1\\Examen1",
+    "\\FormularioMDI",
+    "\\FormularioMDI\\FormularioMDI"
   ],
-  "SelectedNode": "\\Examen1\\Examen1.sln",
+  "SelectedNode": "\\FormularioMDI\\FormularioMDI\\Form1.vb",
   "PreviewInSolutionExplorer": false
 }
