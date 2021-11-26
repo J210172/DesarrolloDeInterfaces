@@ -1,0 +1,19 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPEjer10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900.546">
+    <Grid>
+        <ListBox x:Name="ListBox1" Margin="0,0,514,0" SelectionMode="Extended" Height="311" VerticalAlignment="Center" HorizontalAlignment="Right" Width="201" AllowDrop="True"/>
+        <ListBox x:Name="ListBox2" Margin="519,54,0,0" SelectionMode="Extended" HorizontalAlignment="Left" Width="201" Height="319" VerticalAlignment="Top" AllowDrop="True"/>
+        <TextBox x:Name="Txt_box1" HorizontalAlignment="Right" Margin="0,378,514,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="Txt_box2" HorizontalAlignment="Left" Margin="519,378,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name="Btn_mover2" Content="&lt;&lt;&lt;&lt;" HorizontalAlignment="Center" Margin="0,246,0,0" Width="84" Height="51" VerticalAlignment="Top"/>
+        <Button x:Name="Btn_mover1" Content="&gt;&gt;&gt;&gt;" HorizontalAlignment="Center" Margin="0,0,0,239" VerticalAlignment="Bottom" Height="51" Width="84"/>
+        <Button x:Name="Btn_limpiar1" Content="Borrar todo" HorizontalAlignment="Right" Margin="0,25,514,0" VerticalAlignment="Top" Width="201"/>
+        <Button x:Name="Btn_limpiar2" Content="Borrar todo" HorizontalAlignment="Left" Margin="519,25,0,0" VerticalAlignment="Top" Width="201"/>
+    </Grid>
+</Window>

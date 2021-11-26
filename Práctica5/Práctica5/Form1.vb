@@ -133,7 +133,6 @@
     End Sub
 
     Private Sub DragNDropElements(ByVal sender As Object, ByVal e As System.Windows.Forms.DragEventArgs) Handles LeftList.DragDrop, MidList.DragDrop, RightList.DragDrop
-
         destList = sender
         MoveElement()
 
