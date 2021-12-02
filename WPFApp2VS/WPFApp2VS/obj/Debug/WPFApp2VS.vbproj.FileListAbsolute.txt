@@ -1,0 +1,17 @@
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\bin\Debug\WPFApp2VS.exe.config
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\bin\Debug\WPFApp2VS.exe
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\bin\Debug\WPFApp2VS.pdb
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\bin\Debug\WPFApp2VS.xml
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.vbproj.AssemblyReference.cache
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\MainWindow.g.vb
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\Application.g.vb
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS_MarkupCompile.cache
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS_MarkupCompile.lref
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\MainWindow.baml
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.g.resources
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.Resources.resources
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.vbproj.GenerateResource.cache
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.vbproj.CoreCompileInputs.cache
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.exe
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.xml
+C:\Users\DAM2Alu9\source\repos\WPFApp2VS\WPFApp2VS\obj\Debug\WPFApp2VS.pdb

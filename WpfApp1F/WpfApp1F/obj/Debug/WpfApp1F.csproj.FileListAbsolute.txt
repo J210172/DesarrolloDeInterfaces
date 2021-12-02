@@ -1,0 +1,13 @@
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\bin\Debug\WpfApp1F.exe.config
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\bin\Debug\WpfApp1F.exe
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\bin\Debug\WpfApp1F.pdb
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\MainWindow.g.cs
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\App.g.cs
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F_MarkupCompile.cache
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\MainWindow.baml
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.g.resources
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.Properties.Resources.resources
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.csproj.GenerateResource.cache
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.csproj.CoreCompileInputs.cache
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.exe
+C:\Users\DAM2Alu9\source\repos\WpfApp1F\WpfApp1F\obj\Debug\WpfApp1F.pdb
