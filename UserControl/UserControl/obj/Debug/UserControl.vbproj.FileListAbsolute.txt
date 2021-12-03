@@ -1,0 +1,13 @@
+C:\Users\jaime\source\repos\UserControl\UserControl\bin\Debug\UserControl.exe.config
+C:\Users\jaime\source\repos\UserControl\UserControl\bin\Debug\UserControl.exe
+C:\Users\jaime\source\repos\UserControl\UserControl\bin\Debug\UserControl.pdb
+C:\Users\jaime\source\repos\UserControl\UserControl\bin\Debug\UserControl.xml
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.vbproj.AssemblyReference.cache
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.Resources.resources
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.vbproj.GenerateResource.cache
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.vbproj.CoreCompileInputs.cache
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.exe
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.xml
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.pdb
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.Form1.resources
+C:\Users\jaime\source\repos\UserControl\UserControl\obj\Debug\UserControl.UserControl1.resources
